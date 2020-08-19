@@ -95,29 +95,5 @@ client.once('ready', () => {
     console.log("Ready!")
 });
 
-client.login('NjI0MDg3NjI2NTI1NDQyMDQ4.XYL5Ug.xB4yILHDr_r8pOiNKAGxHh65c7Q');
+client.login('Token Here');
 
-/*
-To do:
-Allow users to have multiple fields at once.
-Make functions accept multiple arguments. { Buy, Sell, Harvest, Plant }
-Implement levels for items and seeds.
-Need to change: 
-	Model Changes: { UserItems, UserSeeds }
-	Args Changes: { Plant, Sell } (Use .isDigit to detect whether args[0] is a level or a plant name.)
-	Display Changes: { Plant, Sell, Harvest, Field, Inventory, Water }
-Implement 	reap.js
-
-Season
-Leaderboards
-Put lots of fruits
-______________________
-Cooking
-Fishing
-Animals
-Mining?
-
-How to level up my seeds:
-When you sickle your field instead of harvesting it, there is a chance for it to drop seeds of a higher level (or lower, or might even break).
-
-*/
